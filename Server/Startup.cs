@@ -9,6 +9,9 @@ namespace Server
     {
         public void Configuration(IAppBuilder app)
         {
+            //var redisScaleoutConfiguration = new RedisScaleoutConfiguration("192.168.0.1", 6379, null, "chat/signalr") { Database = 0 };
+            //GlobalHost.DependencyResolver.UseRedis(redisScaleoutConfiguration);
+
             //var hubconfiguration = new HubConfiguration();
             //app.MapSignalR("/signalr", hubconfiguration);
 
